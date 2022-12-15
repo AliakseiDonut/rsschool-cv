@@ -11,60 +11,73 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="me">
-        <img class="avatar" src="IMG/rs.png" alt="">
-        <h1 class="my_name">Aliaksei<br>Domut</h1>
-    </div>
-    <div class="flex_container">
-        <div class="contacts">
-            <h1>Contacts</h1>
+    <header>
+        <nav>
             <ul>
-                <li><b>Phone number:</b> +375333490342</li> 
-                <li><b>Email:</b> alexeydomut@gmail.com</li>
-                <li><b>Discord:</b><br> oleksij#4013</li> 
-                <li><b>GitHub:</b><br> aliakseidonut</li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code_ex">Code example</a></li>
+                <li><a href="#languages">Languages</a></li>
+            </ul>
+        </nav>
+        <div class="me">
+            <img class="avatar" src="IMG/rs.png" alt="my_photo">
+            <h1 class="my_name">Aliaksei<br>Domut</h1>
+        </div>
+    </header>
+    <main>
+        <div class="flex_container">
+            <div id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li><b>Phone number:</b> +375333490342</li> 
+                    <li><b>Email:</b> alexeydomut@gmail.com</li>
+                    <li><b>Discord:</b><br> oleksij#4013</li> 
+                    <li><b>GitHub:</b><br> aliakseidonut</li>
+                </ul>
+            </div>
+            <div id="about_me">
+                <h2>About me</h2>
+                <p>I am a first-year student of mechanical and mathematical faculty of BSU. I am also a student of RS school. In the future I want to   become a front-end developer.</p>
+            </div>
+        </div>
+        <div id="skills">
+            <h2>My skills</h2>
+            <ul>
+                <li><img src="IMG/html.png" alt="">HTML</li>
+                <li><img src="IMG/css.png" alt="">CSS</li>
+                <li><img src="IMG/js.png" alt="">JavaScript</li>
+                <li><img src="IMG/figma.png" alt="">Figma</li>
             </ul>
         </div>
-        <div class="about_me">
-            <h1>About me</h1>
-            <p>I am a first-year student of mechanical and mathematical faculty of BSU. I am also a student of RS school. In the future I want to   become a front-end developer.</p>
-        </div>
-    </div>
-    <div class="skills">
-        <h1>My skills</h1>
-        <ul>
-            <li><img src="IMG/html.png" alt="">HTML</li>
-            <li><img src="IMG/css.png" alt="">CSS</li>
-            <li><img src="IMG/js.png" alt="">JavaScript</li>
-            <li><img src="IMG/figma.png" alt="">Figma</li>
-        </ul>
-    </div>
-    <div class="code_ex">
-        <h1>Code example</h1>
-        <code>
+        <div id="code_ex">
+            <h2>Code example</h2>
             <pre>
-                function min(a, b) {
-                    if (a < b) {
-                        return a;
-                        } else {
-                    return b;
+                <code>
+                    function min(a, b) {
+                        if (a &lt; b) {
+                            return a;
+                            } else {
+                        return b;
+                        }
                     }
-                }
+                </code>
             </pre>
-        </code>
-    </div>
-    <div class="languages">
-        <h1>Languages</h1>
-        <ul>
-            <li>English: intermediate</li>
-            <li>Belarusian: native</li>
-            <li>Russian: native</li>
-        </ul>
-    </div>
+        </div>
+        <div id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English: intermediate</li>
+                <li>Belarusian: native</li>
+                <li>Russian: native</li>
+            </ul>
+        </div>
+    </main>
     <footer>
-        <a href="https://github.com/AliakseiDonut"><img src="IMG/git.png" alt="" width="100px"></a>
+        <a href="https://github.com/AliakseiDonut"><img src="IMG/git.png" alt="" width="100"></a>
         <p>2022 by Aliaksei Domut</p>
-        <a href="https://rs.school/js/"><img src="IMG/rs_school_js.svg" alt="" width="170px"></a>
+        <a href="https://rs.school/js/"><img src="IMG/rs_school_js.svg" alt="" width="170"></a>
     </footer>
 </body>
 </html>
