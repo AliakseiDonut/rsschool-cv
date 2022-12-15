@@ -6,6 +6,27 @@ body{
     color: #fff;
     font-family: 'Inter', sans-serif;
 }
+nav{
+    background-color: rgba(255, 255, 255, 0.518);;
+    height: 50px;
+    padding-top: 15px;
+}
+nav ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+nav a:hover{
+    color: rgb(64, 62, 62);
+}
 .me{
     margin-top: 30px;
     display: flex;
@@ -27,7 +48,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.contacts{
+#contacts{
     background: linear-gradient(to top left, rgba(31, 21, 90, 1), rgb(146, 10, 44));
     box-shadow: 5px 10px 50px rgb(0, 0, 0);
     padding-left: 25px;
@@ -36,51 +57,51 @@ body{
     margin-right: 70px;
     padding-right: 20px;
 }
-.contacts h1{
+#contacts h2{
     font-size: 45px;
 }
-.contacts ul{
+#contacts ul{
     list-style-type: none;
     padding-left: 0;
     font-size: 30px;
     font-weight: 500;
 }
-.contacts li{
+#contacts li{
     margin-bottom: 20px;
     line-height: 40px;
 }
-.about_me{
+#about_me{
     padding-right: 70px;
 }
-.about_me h1{
+#about_me h2{
     font-size: 45px;
 }
-.about_me p{
+#about_me p{
     font-size: 30px;
     font-weight: 500;
 }
-.skills h1{
+#skills h2{
     font-size: 60px;
     text-align: center;
     margin-bottom: 50px;
 }
-.skills ul{
+#skills ul{
     font-size: 40px;
     font-weight: 600;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
-.skills li{
+#skills li{
     display: flex;    
     align-items: center;
 }
-.skills img{
+#skills img{
     width: 80px;
     height: 80px;
     margin-right: 10px;
 }
-.code_ex h1{
+#code_ex h2{
     font-size: 60px;
     text-align: center;
     margin-bottom: 50px;
@@ -98,18 +119,18 @@ code{
     box-shadow: 5px 5px 50px rgb(0, 0, 0);
     padding-left: 50px;
 }
-.languages h1{
+#languages h2{
     font-size: 60px;
     text-align: center;
     margin-bottom: 50px;
 }
-.languages ul{
+#languages ul{
     list-style-type: none;
     font-size: 45px;
     font-weight: 500;
     padding-left: 300px;
 }
-.languages li{
+#languages li{
     margin-bottom: 20px;
 }
 footer{
